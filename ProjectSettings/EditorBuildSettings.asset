@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PropertySearchScene.unity
     guid: caf871e4a920f11418490eb6bcdf4c95
+  - enabled: 1
+    path: Assets/Scenes/SubmitEOIscene.unity
+    guid: f7d15b9e8ab8f944c942b7885f55f368
   m_configObjects: {}

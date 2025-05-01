@@ -560,8 +560,9 @@ GameObject:
   - component: {fileID: 766769658}
   - component: {fileID: 766769657}
   - component: {fileID: 766769656}
+  - component: {fileID: 766769659}
   m_Layer: 5
-  m_Name: Button
+  m_Name: submitEOIButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,7 +630,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 766769657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 766769659}
+        m_TargetAssemblyTypeName: gotosubmiteoi, Assembly-CSharp
+        m_MethodName: GoToSubmitEOI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &766769657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,6 +681,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766769654}
   m_CullTransparentMesh: 1
+--- !u!114 &766769659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766769654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0196fe834ae1c744db5cc1ca84a2eae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1261411376
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,8 +705,9 @@ GameObject:
   - component: {fileID: 1261411380}
   - component: {fileID: 1261411379}
   - component: {fileID: 1261411378}
+  - component: {fileID: 1261411381}
   m_Layer: 5
-  m_Name: Button
+  m_Name: submitEOIButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -749,7 +775,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1261411379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1261411381}
+        m_TargetAssemblyTypeName: gotosubmiteoi, Assembly-CSharp
+        m_MethodName: GoToSubmitEOI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1261411379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -788,6 +826,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261411376}
   m_CullTransparentMesh: 1
+--- !u!114 &1261411381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261411376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0196fe834ae1c744db5cc1ca84a2eae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1298307972
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,8 +1044,9 @@ GameObject:
   - component: {fileID: 1386751336}
   - component: {fileID: 1386751335}
   - component: {fileID: 1386751334}
+  - component: {fileID: 1386751337}
   m_Layer: 5
-  m_Name: Button
+  m_Name: submitEOIButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1063,7 +1114,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1386751335}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1386751337}
+        m_TargetAssemblyTypeName: gotosubmiteoi, Assembly-CSharp
+        m_MethodName: GoToSubmitEOI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1386751335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1102,6 +1165,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386751332}
   m_CullTransparentMesh: 1
+--- !u!114 &1386751337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386751332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0196fe834ae1c744db5cc1ca84a2eae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1390777373
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,8 +1281,9 @@ GameObject:
   - component: {fileID: 1401125537}
   - component: {fileID: 1401125536}
   - component: {fileID: 1401125535}
+  - component: {fileID: 1401125538}
   m_Layer: 5
-  m_Name: Button
+  m_Name: submitEOIButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1275,7 +1351,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1401125536}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1401125538}
+        m_TargetAssemblyTypeName: gotosubmiteoi, Assembly-CSharp
+        m_MethodName: GoToSubmitEOI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1401125536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1314,6 +1402,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401125533}
   m_CullTransparentMesh: 1
+--- !u!114 &1401125538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401125533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0196fe834ae1c744db5cc1ca84a2eae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1420902882
 GameObject:
   m_ObjectHideFlags: 0
